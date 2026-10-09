@@ -9,6 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        venue: "bg-primary text-primary-foreground hover:bg-primary/90 rounded-none h-11 px-6 text-xs",
+        invitation: "bg-primary-foreground text-primary hover:bg-primary-foreground/90 rounded-none h-11 px-6 text-xs",
+        glass: "border border-on-image/50 text-on-image hover:bg-on-image/10 rounded-none h-11 px-6 text-xs",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:
