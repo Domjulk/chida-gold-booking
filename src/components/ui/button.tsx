@@ -10,6 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         venue: "bg-primary text-primary-foreground hover:bg-primary/90 rounded-none h-11 px-6 text-xs",
+        gold: "bg-accent-gold text-primary hover:bg-accent-gold/90 rounded-none h-11 px-6 text-xs",
         invitation: "bg-primary-foreground text-primary hover:bg-primary-foreground/90 rounded-none h-11 px-6 text-xs",
         glass: "border border-on-image/50 text-on-image hover:bg-on-image/10 rounded-none h-11 px-6 text-xs",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
