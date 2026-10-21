@@ -206,8 +206,8 @@ export function ChidaPreview() {
         <section className="section visit-section" id="visit">
           <div className="visit-intro"><span className="eyebrow">Come together in Abuja</span><h2>We’d love to hear<br />about your occasion.</h2><p>Get in touch directly to ask about your event and visit Chida Event Centre.</p><CallLink className="visit-call" /></div>
           <div className="visit-details">
-            <div className="visit-detail"><span className="detail-icon"><MapPin aria-hidden="true" /></span><div><h3>Location</h3><p className="location-name">Abuja, FCT</p><p>Specific service areas to be confirmed.</p></div><ArrowRight aria-hidden="true" className="detail-arrow" /></div>
-            <div className="visit-detail"><span className="detail-icon"><Clock3 aria-hidden="true" /></span><div><h3>Opening hours</h3><p>To be confirmed</p><p>Please call for current availability.</p></div><ArrowRight aria-hidden="true" className="detail-arrow" /></div>
+            <div className="visit-detail"><span className="detail-icon"><MapPin aria-hidden="true" /></span><div><h3>Location</h3><p className="location-name">Plot 224, 226 P.O.W. Mafemi Crescent</p><p>Utako, Abuja</p></div><ArrowRight aria-hidden="true" className="detail-arrow" /></div>
+            <div className="visit-detail"><span className="detail-icon"><Clock3 aria-hidden="true" /></span><div><h3>Opening hours</h3><p className="location-name">Open 24 hours</p><p>Every day, all year round</p></div><ArrowRight aria-hidden="true" className="detail-arrow" /></div>
             <div className="visit-detail"><span className="detail-icon"><Phone aria-hidden="true" /></span><div><h3>Call Chida</h3><a href="tel:08100718883">0810 071 8883</a></div><ArrowRight aria-hidden="true" className="detail-arrow" /></div>
           </div>
         </section>
@@ -222,7 +222,7 @@ export function ChidaPreview() {
 
       <footer className="footer">
         <a className="footer-brand" href="#home"><span className="brand-emblem" aria-hidden="true">C</span><span><span className="brand-name">CHIDA</span><span className="brand-sub">Event Centre · Abuja</span></span></a>
-        <span className="footer-note">A setting for life’s celebrations · Abuja, Nigeria</span>
+        <span className="footer-note">A setting for life’s celebrations · Plot 224, 226 P.O.W. Mafemi Cres, Utako, Abuja</span>
         <a className="footer-phone" href="tel:08100718883"><Phone aria-hidden="true" />0810 071 8883</a>
         <a className="back-to-top" href="#home" aria-label="Back to top">↑</a>
       </footer>
@@ -232,7 +232,7 @@ export function ChidaPreview() {
 
 export const chidaHead = () => ({ meta: [
   { title: 'Chida Event Centre | Weddings & Conferences in Abuja' },
-  { name: 'description', content: 'Discover Chida Event Centre in Abuja, a setting for weddings, conferences and celebrations. Call 0810 071 8883.' },
+  { name: 'description', content: 'Discover Chida Event Centre at Plot 224, 226 P.O.W. Mafemi Cres, Utako, Abuja — a setting for weddings, conferences and celebrations, open 24 hours. Call 0810 071 8883.' },
   { property: 'og:title', content: 'Chida Event Centre | Abuja' },
   { property: 'og:description', content: 'A memorable setting for weddings, conferences and celebrations in Abuja. Call 0810 071 8883.' },
   { property: 'og:type', content: 'website' },
